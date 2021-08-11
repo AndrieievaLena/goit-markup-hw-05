@@ -114,6 +114,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   text-decoration: none;
+  transition: 250ms var(--timer-fuction);
 }
 .link {
   position: relative;
@@ -174,6 +175,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition: 250ms var(--timer-fuction);
 }
 .contact-information .link:hover,
 .contact-information .link:focus {
@@ -449,6 +451,7 @@ img {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  transition: 250ms var(--timer-fuction);
 }
 .team-link:hover,
 .team-link:focus {
@@ -507,6 +510,7 @@ img {
   cursor: pointer;
   border-radius: 4px;
   padding: 6px 22px;
+  transition: 250ms var(--timer-fuction);
 }
 .button-type .link:hover,
 .button-type .link:focus {
@@ -552,6 +556,7 @@ img {
 }
 .card-content {
   border: 2px solid var(--border-color);
+  border-top: 0;
 }
 .card-content {
   padding: 20px 24px;
@@ -569,10 +574,8 @@ img {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
-  transition: transform 250ms var(--timer-fuction);
+  transition: all 250ms var(--timer-fuction);
 }
 .work-card:hover .photo-cards::before {
   opacity: 1;
@@ -607,7 +610,7 @@ img {
   color: var(--white-color);
   opacity: 0;
   transform: translateY(100%);
-  transition: transform 250ms var(--timer-fuction);
+  transition: all 250ms var(--timer-fuction);
 }
 /* Client-section */
 
@@ -633,6 +636,7 @@ img {
   fill: var(--logo-company);
   width: 100px;
   height: 60px;
+  transition: 250ms var(--timer-fuction);
 }
 .client-title {
   font-size: 36px;
@@ -652,6 +656,7 @@ img {
   border: 1px solid var(--border-logo-company);
   box-sizing: border-box;
   border-radius: 4px;
+  transition: 250ms var(--timer-fuction);
 }
 .client-icons:hover {
   border: 1px solid var(--accent-color);
@@ -684,6 +689,7 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
+  transition: 250ms var(--timer-fuction);
 }
 .contact-footer .link:hover,
 .contact-footer.link:focus {
@@ -744,6 +750,7 @@ img {
   background-color: var(--footer-link-color);
   justify-content: center;
   align-items: center;
+  transition: 250ms var(--timer-fuction);
 }
 .social-link svg {
   width: 20px;
