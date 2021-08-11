@@ -158,12 +158,14 @@ img {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  transition: 250ms var(--timer-fuction);
 }
 .icon-tel {
   fill: var(--second-text-color);
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  transition: 250ms var(--timer-fuction);
 }
 
 .contact-information .link {
